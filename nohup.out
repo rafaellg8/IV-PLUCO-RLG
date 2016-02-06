@@ -1,0 +1,743 @@
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[05/Feb/2016 07:36:44] "GET /static/images/logo.png HTTP/1.1" 200 19630
+[05/Feb/2016 07:36:48] "GET / HTTP/1.1" 200 13148
+[05/Feb/2016 07:36:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121290
+[05/Feb/2016 07:36:48] "GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[05/Feb/2016 07:36:48] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+[05/Feb/2016 07:36:48] "GET /static/css/custom.css HTTP/1.1" 200 1157
+[05/Feb/2016 07:36:48] "GET /static/js/jquery.js HTTP/1.1" 200 95786
+[05/Feb/2016 07:36:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 36868
+[05/Feb/2016 07:36:48] "GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 07:36:52] "GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 07:36:53] "GET /static/images/background-dev.jpg HTTP/1.1" 200 52702
+[05/Feb/2016 07:36:53] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[05/Feb/2016 07:37:03] "POST /plucoApp/login/ HTTP/1.1" 302 0
+[05/Feb/2016 07:37:03] "GET /perfil HTTP/1.1" 301 0
+[05/Feb/2016 07:37:03] "GET /perfil/ HTTP/1.1" 200 9120
+[05/Feb/2016 07:37:03] "GET /static/js/like.js HTTP/1.1" 200 865
+[05/Feb/2016 07:37:03] "GET /static/js/pluco.js HTTP/1.1" 200 1460
+[05/Feb/2016 07:37:03] "GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[05/Feb/2016 07:37:12] "GET /media/anonymous.png HTTP/1.1" 200 2255
+[05/Feb/2016 07:37:12] "GET /static/images/banner-title.png HTTP/1.1" 200 193851
+[05/Feb/2016 07:37:12] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 07:38:16] "GET /plucoApp/about HTTP/1.1" 200 13294
+[05/Feb/2016 07:38:16] "GET /static/images/articuloPrincipal.jpg HTTP/1.1" 200 158488
+[05/Feb/2016 07:38:16] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 07:38:18] "GET /foros HTTP/1.1" 301 0
+[05/Feb/2016 07:38:18] "GET /foros/ HTTP/1.1" 200 14486
+[05/Feb/2016 07:38:18] "GET /static/images/anonymous.png HTTP/1.1" 200 2255
+[05/Feb/2016 07:38:18] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 07:38:23] "GET /foros/theme/iv HTTP/1.1" 301 0
+[05/Feb/2016 07:38:24] "GET /foros/theme/iv/ HTTP/1.1" 200 13754
+[05/Feb/2016 07:38:24] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 07:38:28] "GET /favicon.ico HTTP/1.1" 404 4786
+[05/Feb/2016 07:38:28] "GET /favicon.ico HTTP/1.1" 404 4786
+[05/Feb/2016 07:38:31] "GET /foros/theme/ayuda HTTP/1.1" 301 0
+[05/Feb/2016 07:38:31] "GET /foros/theme/ayuda/ HTTP/1.1" 200 13788
+[05/Feb/2016 07:38:31] "GET /foros/reclama_datos HTTP/1.1" 200 115
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[05/Feb/2016 08:08:32] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:08:35] "GET /foros/ HTTP/1.1" 302 0
+[05/Feb/2016 08:08:36] "GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7552
+[05/Feb/2016 08:08:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1777
+[05/Feb/2016 08:08:36] "GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 08:08:36] "GET /static/css/custom.css HTTP/1.1" 200 1157
+[05/Feb/2016 08:08:36] "GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[05/Feb/2016 08:08:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 36868
+[05/Feb/2016 08:08:36] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+[05/Feb/2016 08:08:36] "GET /static/js/jquery.js HTTP/1.1" 200 95786
+[05/Feb/2016 08:08:46] "GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 08:08:46] "GET /static/images/background-dev.jpg HTTP/1.1" 200 52702
+[05/Feb/2016 08:08:46] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[05/Feb/2016 08:08:50] "POST /plucoApp/login/ HTTP/1.1" 302 0
+[05/Feb/2016 08:08:50] "GET /perfil HTTP/1.1" 301 0
+[05/Feb/2016 08:08:50] "GET /perfil/ HTTP/1.1" 200 9120
+[05/Feb/2016 08:08:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1777
+[05/Feb/2016 08:08:50] "GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[05/Feb/2016 08:08:50] "GET /static/js/like.js HTTP/1.1" 200 865
+[05/Feb/2016 08:08:50] "GET /static/js/pluco.js HTTP/1.1" 200 1460
+[05/Feb/2016 08:08:50] "GET /media/anonymous.png HTTP/1.1" 200 2255
+[05/Feb/2016 08:08:50] "GET /static/images/banner-title.png HTTP/1.1" 200 193851
+[05/Feb/2016 08:09:30] "GET /perfil/ HTTP/1.1" 200 9120
+[05/Feb/2016 08:09:30] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:09:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121290
+[05/Feb/2016 08:10:21] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:10:21] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:10:21] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:10:21] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:14:03] "GET /perfil/ HTTP/1.1" 200 9120
+[05/Feb/2016 08:14:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:14:03] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:14:08] "GET / HTTP/1.1" 200 9120
+[05/Feb/2016 08:14:08] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:14:26] "GET / HTTP/1.1" 200 9120
+[05/Feb/2016 08:14:26] "GET /static/css/stylish-portfolio.css HTTP/1.1" 404 1789
+[05/Feb/2016 08:14:26] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[05/Feb/2016 08:14:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1777
+[05/Feb/2016 08:14:26] "GET /static/css/custom.css HTTP/1.1" 404 1756
+[05/Feb/2016 08:14:26] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:14:26] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:14:26] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:14:26] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:14:26] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:14:26] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:14:26] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:14:26] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:14:26] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:15:17] "GET / HTTP/1.1" 200 9160
+[05/Feb/2016 08:15:17] "GET /static/css/stylish-portfolio.css HTTP/1.1" 404 1789
+[05/Feb/2016 08:15:17] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:15:17] "GET /static/css/custom.css HTTP/1.1" 404 1756
+[05/Feb/2016 08:15:17] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[05/Feb/2016 08:15:17] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:15:17] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:15:17] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:15:18] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:15:18] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:15:18] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:15:18] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:15:18] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:15:18] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:16:57] "GET / HTTP/1.1" 200 9758
+[05/Feb/2016 08:16:57] "GET /static/css/stylish-portfolio.css HTTP/1.1" 404 1789
+[05/Feb/2016 08:16:58] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[05/Feb/2016 08:16:58] "GET /static/css/custom.css HTTP/1.1" 404 1756
+[05/Feb/2016 08:16:58] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:16:58] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:16:58] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:16:58] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:16:58] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[05/Feb/2016 08:16:58] "GET /static/css/custom.css HTTP/1.1" 404 1756
+[05/Feb/2016 08:16:58] "GET /static/css/stylish-portfolio.css HTTP/1.1" 404 1789
+[05/Feb/2016 08:16:58] "GET /static/js/pluco.js HTTP/1.1" 404 1747
+[05/Feb/2016 08:16:58] "GET /static/js/visitsGraphic.js HTTP/1.1" 404 1771
+[05/Feb/2016 08:16:58] "GET /static/js/like.js HTTP/1.1" 404 1744
+[05/Feb/2016 08:16:58] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:16:58] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:16:59] "GET /static/images/logo.png HTTP/1.1" 404 1759
+[05/Feb/2016 08:18:09] "GET / HTTP/1.1" 200 9758
+[05/Feb/2016 08:18:09] "GET /static/js/pluco.js HTTP/1.1" 200 1460
+[05/Feb/2016 08:18:09] "GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[05/Feb/2016 08:18:09] "GET /static/js/like.js HTTP/1.1" 200 865
+[05/Feb/2016 08:18:09] "GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[05/Feb/2016 08:18:09] "GET /static/css/custom.css HTTP/1.1" 200 1157
+[05/Feb/2016 08:18:09] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+[05/Feb/2016 08:18:10] "GET /static/images/logo.png HTTP/1.1" 200 19630
+[05/Feb/2016 08:18:10] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:18:10] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:18:10] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:18:28] "GET /foros HTTP/1.1" 301 0
+[05/Feb/2016 08:18:28] "GET /foros/ HTTP/1.1" 200 15124
+[05/Feb/2016 08:18:28] "GET /static/images/anonymous.png HTTP/1.1" 200 2255
+[05/Feb/2016 08:18:29] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:18:32] "GET /foros/theme/tema-de-prueba HTTP/1.1" 301 0
+[05/Feb/2016 08:18:32] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15859
+[05/Feb/2016 08:18:33] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:18:34] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:18:36] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:38] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:40] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:40] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:41] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:41] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:41] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:41] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:18:43] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:19:05] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15369
+[05/Feb/2016 08:19:05] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:05] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:05] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:05] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:05] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:05] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:06] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:06] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:06] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:06] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:19:08] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:19:10] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:19:22] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15221
+[05/Feb/2016 08:19:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121290
+[05/Feb/2016 08:19:23] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:19:23] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:19:25] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:19:26] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:19:27] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:19:27] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:20:02] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15221
+[05/Feb/2016 08:20:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:02] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:03] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:20:04] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:20:07] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:20:38] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15261
+[05/Feb/2016 08:20:38] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:38] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:38] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:38] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:38] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:20:38] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:20:39] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:39] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:39] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:20:39] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:20:42] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:21:16] "GET /foros/ HTTP/1.1" 200 14526
+[05/Feb/2016 08:21:17] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:21:24] "GET /foros/theme/tema-de-prueb2a HTTP/1.1" 301 0
+[05/Feb/2016 08:21:24] "GET /foros/theme/tema-de-prueb2a/ HTTP/1.1" 200 12215
+[05/Feb/2016 08:21:24] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:21:29] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15261
+[05/Feb/2016 08:21:29] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:21:31] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:21:33] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:22:45] "GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15261
+[05/Feb/2016 08:22:45] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:22:45] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:22:45] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:22:45] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:22:45] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:22:45] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:22:46] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:22:46] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:22:46] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:22:46] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:22:52] "GET /foros/like?idCom=1 HTTP/1.1" 500 14207
+[05/Feb/2016 08:23:00] "GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[05/Feb/2016 08:23:04] "GET / HTTP/1.1" 200 9160
+[05/Feb/2016 08:23:04] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:24:57] "GET / HTTP/1.1" 200 9167
+[05/Feb/2016 08:24:57] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:24:57] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:24:57] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:24:57] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:24:57] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:24:57] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:24:58] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:24:58] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:24:58] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:24:58] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:25:00] "GET / HTTP/1.1" 200 9167
+[05/Feb/2016 08:25:00] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:00] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:25:17] "GET / HTTP/1.1" 200 9160
+[05/Feb/2016 08:25:17] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:17] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:17] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:17] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:17] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:25:17] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:25:18] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:18] "GET /media/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:18] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:25:18] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:25:26] "GET / HTTP/1.1" 200 9160
+[05/Feb/2016 08:25:26] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:26:47] "GET / HTTP/1.1" 200 9160
+[05/Feb/2016 08:26:48] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:26:54] "GET /foros/ HTTP/1.1" 200 14526
+[05/Feb/2016 08:26:54] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:27:05] "GET /foros/ HTTP/1.1" 200 14526
+[05/Feb/2016 08:27:06] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 08:28:10] "GET /foros/ HTTP/1.1" 200 14511
+[05/Feb/2016 08:28:11] "GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/css/custom.css HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/js/pluco.js HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/js/like.js HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/images/logo.png HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/images/anonymous.png HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /static/images/banner-title.png HTTP/1.1" 304 0
+[05/Feb/2016 08:28:11] "GET /foros/reclama_datos HTTP/1.1" 200 115
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[05/Feb/2016 09:50:54] "GET / HTTP/1.1" 200 9145
+[05/Feb/2016 09:50:54] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[05/Feb/2016 09:50:54] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 09:50:57] "GET /perfil/ HTTP/1.1" 200 9145
+[05/Feb/2016 09:50:57] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 09:51:00] "GET /foros/ HTTP/1.1" 200 14511
+[05/Feb/2016 09:51:01] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 09:51:10] "GET /plucoApp/about HTTP/1.1" 200 13319
+[05/Feb/2016 09:51:11] "GET /static/images/articuloPrincipal.jpg HTTP/1.1" 200 158488
+[05/Feb/2016 09:51:11] "GET /foros/reclama_datos HTTP/1.1" 200 115
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[05/Feb/2016 10:25:26] "GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 10:25:29] "GET /%C2%A1 HTTP/1.1" 404 4763
+[05/Feb/2016 10:25:31] "GET / HTTP/1.1" 200 9145
+[05/Feb/2016 10:25:32] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[05/Feb/2016 10:25:32] "GET /foros/reclama_datos HTTP/1.1" 200 115
+Traceback (most recent call last):
+  File "pluco/manage.py", line 8, in <module>
+    from django.core.management import execute_from_command_line
+ImportError: No module named django.core.management
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[05/Feb/2016 19:41:44]"GET / HTTP/1.1" 200 13188
+[05/Feb/2016 19:41:44]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 19:41:45]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[05/Feb/2016 19:41:47]"GET /register HTTP/1.1" 200 8988
+[05/Feb/2016 19:41:47]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[05/Feb/2016 19:43:33]"POST /plucoApp/register/ HTTP/1.1" 302 10
+[05/Feb/2016 19:43:33]"GET /perfil HTTP/1.1" 301 0
+No handlers could be found for logger "easy_maps.models"
+[05/Feb/2016 19:43:33]"GET /perfil/ HTTP/1.1" 200 9156
+[05/Feb/2016 19:43:34]"GET /media/anonymous.png HTTP/1.1" 200 2255
+[05/Feb/2016 19:43:34]"GET /foros/reclama_datos HTTP/1.1" 200 115
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[06/Feb/2016 07:14:02]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:14:02]"GET /favicon.ico HTTP/1.1" 404 4786
+[06/Feb/2016 07:14:02]"GET /favicon.ico HTTP/1.1" 404 4786
+[06/Feb/2016 07:14:08]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:14:08]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:14:08]"GET /static/js/like.js HTTP/1.1" 200 865
+[06/Feb/2016 07:14:08]"GET /static/js/pluco.js HTTP/1.1" 200 1460
+[06/Feb/2016 07:14:08]"GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[06/Feb/2016 07:14:08]"GET /static/css/custom.css HTTP/1.1" 200 1157
+[06/Feb/2016 07:14:08]"GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[06/Feb/2016 07:14:08]"GET /static/images/logo.png HTTP/1.1" 200 19630
+[06/Feb/2016 07:14:08]"GET /media/anonymous.png HTTP/1.1" 200 2255
+[06/Feb/2016 07:14:08]"GET /static/images/banner-title.png HTTP/1.1" 200 193851
+[06/Feb/2016 07:14:09]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:14:21]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:14:21]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:14:21]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:14:47]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:14:48]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:14:48]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /media/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:14:48]"GET /foros/reclama_datos HTTP/1.1" 200 115
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[06/Feb/2016 07:16:54]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:16:54]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:16:54]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:16:54]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:16:54]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:16:54]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:16:54]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:16:55]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:16:55]"GET /media/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:16:55]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:16:55]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:18:38]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:18:38]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:18:38]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:18:38]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:18:38]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:18:38]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:18:38]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:18:39]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:18:39]"GET /media/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:18:39]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:18:39]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:18:42]"GET / HTTP/1.1" 200 9156
+[06/Feb/2016 07:18:42]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:18:42]"GET /foros/reclama_datos HTTP/1.1" 200 115
+[06/Feb/2016 07:18:48]"GET /foros/ HTTP/1.1" 200 14514
+[06/Feb/2016 07:18:48]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1825
+[06/Feb/2016 07:18:48]"GET /foros/reclama_datos HTTP/1.1" 200 115
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 06, 2016 - 07:13:58
+Django version 1.8.1, using settings 'pluco.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[06/Feb/2016 07:19:56]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:20:01]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 07:20:01]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7552
+[06/Feb/2016 07:20:01]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+[06/Feb/2016 07:20:01]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:01]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:01]"GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[06/Feb/2016 07:20:08]"GET /plucoApp/login HTTP/1.1" 301 0
+[06/Feb/2016 07:20:08]"GET /plucoApp/login/ HTTP/1.1" 200 7552
+[06/Feb/2016 07:20:08]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:20:08]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:08]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:12]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 07:20:12]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7552
+[06/Feb/2016 07:20:12]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:20:12]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:12]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:18]"POST /plucoApp/login/ HTTP/1.1" 302 0
+[06/Feb/2016 07:20:18]"GET /perfil HTTP/1.1" 301 0
+[06/Feb/2016 07:20:18]"GET /perfil/ HTTP/1.1" 200 9120
+[06/Feb/2016 07:20:18]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:20:18]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:20:27]"GET /plucoApp/logout/ HTTP/1.1" 302 0
+[06/Feb/2016 07:20:27]"GET / HTTP/1.1" 200 13148
+[06/Feb/2016 07:20:27]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:20:27]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:20:27]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[06/Feb/2016 07:23:34]"GET / HTTP/1.1" 200 13148
+[06/Feb/2016 07:23:34]"GET /static/css/bootstrap.min.css HTTP/1.1" 200 121290
+[06/Feb/2016 07:23:34]"GET /static/js/jquery.js HTTP/1.1" 200 95786
+[06/Feb/2016 07:23:34]"GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[06/Feb/2016 07:23:34]"GET /static/css/custom.css HTTP/1.1" 200 1157
+[06/Feb/2016 07:23:34]"GET /static/js/bootstrap.min.js HTTP/1.1" 200 36868
+[06/Feb/2016 07:23:34]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:23:34]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:23:35]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 07:23:35]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:23:35]"GET /static/images/logo.png HTTP/1.1" 200 19630
+[06/Feb/2016 07:23:35]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 07:23:35]"GET /static/images/background-dev.jpg HTTP/1.1" 200 52702
+[06/Feb/2016 07:24:52]"POST /plucoApp/login/ HTTP/1.1" 302 0
+[06/Feb/2016 07:24:52]"GET /perfil HTTP/1.1" 301 0
+[06/Feb/2016 07:24:52]"GET /perfil/ HTTP/1.1" 200 9120
+[06/Feb/2016 07:24:52]"GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:24:52]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:24:52]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:24:52]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:24:52]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:24:52]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:24:57]"GET /foros/ HTTP/1.1" 200 14171
+[06/Feb/2016 07:24:57]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:25:02]"GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15221
+[06/Feb/2016 07:25:03]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:25:07]"GET /foros/like?idCom=1 HTTP/1.1" 200 2
+[06/Feb/2016 07:25:08]"GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[06/Feb/2016 07:27:18]"GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15221
+[06/Feb/2016 07:27:18]"GET /static/js/pluco.js HTTP/1.1" 200 1460
+[06/Feb/2016 07:27:18]"GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[06/Feb/2016 07:27:18]"GET /static/js/like.js HTTP/1.1" 200 865
+[06/Feb/2016 07:27:18]"GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:27:18]"GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Feb/2016 07:27:18]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:27:18]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:27:18]"GET /static/images/anonymous.png HTTP/1.1" 200 2255
+[06/Feb/2016 07:27:18]"GET /static/images/banner-title.png HTTP/1.1" 200 193851
+[06/Feb/2016 07:27:18]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:27:18]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:27:20]"GET /foros/like?idCom=1 HTTP/1.1" 200 2
+[06/Feb/2016 07:27:21]"GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[06/Feb/2016 07:28:09]"GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15279
+[06/Feb/2016 07:28:09]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/images/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:09]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:28:12]"GET /foros/like?idCom=1 HTTP/1.1" 200 2
+[06/Feb/2016 07:28:14]"GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[06/Feb/2016 07:28:29]"GET /foros/theme/tema-de-prueba/ HTTP/1.1" 200 15264
+[06/Feb/2016 07:28:30]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/images/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:28:30]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:28:32]"GET /foros/like?idCom=1 HTTP/1.1" 200 2
+[06/Feb/2016 07:28:34]"GET /foros/like?idCom=0 HTTP/1.1" 200 2
+[06/Feb/2016 07:29:53]"GET /foros/ HTTP/1.1" 200 14214
+[06/Feb/2016 07:29:53]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/images/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:53]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:54]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:29:56]"GET /foros/ HTTP/1.1" 200 14214
+[06/Feb/2016 07:29:56]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/images/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:29:56]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:31:31]"GET /plucoApp/logout/ HTTP/1.1" 302 0
+[06/Feb/2016 07:31:32]"GET / HTTP/1.1" 200 13234
+[06/Feb/2016 07:31:32]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:31:32]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:31:32]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 07:31:32]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 07:31:32]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:31:32]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:31:32]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:31:32]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+[06/Feb/2016 07:31:34]"GET /register HTTP/1.1" 200 9478
+[06/Feb/2016 07:31:34]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:31:34]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:33:17]"GET /register HTTP/1.1" 500 164164
+[06/Feb/2016 07:33:32]"GET /register HTTP/1.1" 200 9006
+[06/Feb/2016 07:33:32]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:32]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:33:32]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:43]"GET /register HTTP/1.1" 200 9006
+[06/Feb/2016 07:33:43]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:43]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:44]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:33:53]"GET /register HTTP/1.1" 200 8808
+[06/Feb/2016 07:33:53]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 07:33:53]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:34:21]"POST /plucoApp/register/ HTTP/1.1" 302 10
+[06/Feb/2016 07:34:21]"GET /perfil HTTP/1.1" 301 0
+[06/Feb/2016 07:34:22]"GET /perfil/ HTTP/1.1" 200 10347
+[06/Feb/2016 07:34:22]"GET /media/media/Captura_de_pantalla_de_2016-01-17_120629.png HTTP/1.1" 200 317937
+[06/Feb/2016 07:34:22]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 07:34:37]"GET /plucoApp/logout/ HTTP/1.1" 302 0
+[06/Feb/2016 07:34:37]"GET / HTTP/1.1" 200 13234
+[06/Feb/2016 07:34:37]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:34:38]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 07:34:38]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 07:34:38]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:34:38]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[06/Feb/2016 07:53:48]"GET / HTTP/1.1" 200 13234
+[06/Feb/2016 07:53:48]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 07:53:48]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 07:53:48]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:53:48]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 07:53:48]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 07:53:48]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 07:53:48]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 07:53:49]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET / HTTP/1.1" 200 13234
+[06/Feb/2016 08:43:14]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 08:43:14]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 08:43:14]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 08:43:15]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+[06/Feb/2016 08:43:20]"POST /plucoApp/login/ HTTP/1.1" 302 0
+[06/Feb/2016 08:43:20]"GET /perfil HTTP/1.1" 301 0
+[06/Feb/2016 08:43:20]"GET /perfil/ HTTP/1.1" 200 9163
+[06/Feb/2016 08:43:20]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 08:43:20]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 08:43:20]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 08:43:20]"GET /media/anonymous.png HTTP/1.1" 200 2255
+[06/Feb/2016 08:43:20]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 08:43:21]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 08:45:19]"GET /perfil/ HTTP/1.1" 200 9163
+[06/Feb/2016 08:45:19]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /media/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 08:45:19]"GET /foros/reclama_datos HTTP/1.1" 200 103
+[06/Feb/2016 08:58:45]"GET /perfil/ HTTP/1.1" 500 178445
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+Error: That port is already in use.
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco
+/home/rafaellg8/Documentos/GII/Cuarto/IV/IV-PLUCO-RLG/pluco/pluco
+[06/Feb/2016 08:59:15]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 08:59:15]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7638
+[06/Feb/2016 08:59:15]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 08:59:15]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 08:59:15]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 08:59:15]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 08:59:15]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 08:59:15]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 08:59:15]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 08:59:15]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+[06/Feb/2016 08:59:18]"POST /plucoApp/login/ HTTP/1.1" 200 7506
+[06/Feb/2016 08:59:18]"GET /static/js/pluco.js HTTP/1.1" 304 0
+[06/Feb/2016 08:59:18]"GET /static/js/visitsGraphic.js HTTP/1.1" 304 0
+[06/Feb/2016 08:59:18]"GET /static/js/like.js HTTP/1.1" 304 0
+[06/Feb/2016 08:59:18]"GET /static/images/banner-title.png HTTP/1.1" 304 0
+[06/Feb/2016 08:59:18]"GET /foros/reclama_datos HTTP/1.1" 200 27
+[06/Feb/2016 08:59:20]"GET /register HTTP/1.1" 200 8808
+[06/Feb/2016 08:59:20]"GET /foros/reclama_datos HTTP/1.1" 200 27
+[06/Feb/2016 08:59:30]"POST /plucoApp/register/ HTTP/1.1" 302 10
+[06/Feb/2016 08:59:30]"GET /perfil HTTP/1.1" 301 0
+[06/Feb/2016 08:59:30]"GET /perfil/ HTTP/1.1" 200 10192
+[06/Feb/2016 08:59:31]"GET /media/anonymous.png HTTP/1.1" 304 0
+[06/Feb/2016 08:59:31]"GET /foros/reclama_datos HTTP/1.1" 200 27
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[06/Feb/2016 09:20:28]"GET /foros/reclama_datos HTTP/1.1" 200 27
+[06/Feb/2016 09:20:31]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 09:20:31]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7638
+[06/Feb/2016 09:20:31]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:20:31]"GET /static/css/stylish-portfolio.css HTTP/1.1" 200 6366
+[06/Feb/2016 09:20:31]"GET /static/js/bootstrap.min.js HTTP/1.1" 200 36868
+[06/Feb/2016 09:20:31]"GET /static/js/jquery.js HTTP/1.1" 200 95786
+[06/Feb/2016 09:20:31]"GET /static/css/custom.css HTTP/1.1" 200 1157
+[06/Feb/2016 09:20:31]"GET /static/images/logo.png HTTP/1.1" 200 19630
+[06/Feb/2016 09:20:31]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:20:31]"GET /static/images/background-dev.jpg HTTP/1.1" 200 52702
+[06/Feb/2016 09:20:37]"POST /plucoApp/login/ HTTP/1.1" 200 7506
+[06/Feb/2016 09:20:37]"GET /static/js/visitsGraphic.js HTTP/1.1" 200 18
+[06/Feb/2016 09:20:37]"GET /static/js/like.js HTTP/1.1" 200 865
+[06/Feb/2016 09:20:37]"GET /static/js/pluco.js HTTP/1.1" 200 1460
+[06/Feb/2016 09:20:37]"GET /foros/reclama_datos HTTP/1.1" 200 27
+[06/Feb/2016 09:20:37]"GET /static/images/banner-title.png HTTP/1.1" 200 193851
+[06/Feb/2016 09:20:39]"GET /register HTTP/1.1" 200 8808
+[06/Feb/2016 09:20:39]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 09:20:39]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 09:20:39]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 09:20:39]"GET /foros/reclama_datos HTTP/1.1" 200 27

@@ -1,0 +1,70 @@
+{% extends "index.html" %}{% block title %}Perfil{{usuario}}{% endblock %}
+{% block cabeceraTitulo %}
+  <div class="botonera">
+    {{usuario}}
+  <a href="/logout">
+    <button>logout</button>
+  </a>
+</div>
+<div>
+  <h3><span class="beauty">PLUCO</span></h3>
+  <p style="float: left;margin-right: 400px;margin-top: 20px">
+    Plataforma Universitaria Compartición Conocimiento
+  </p>
+</div>
+{% endblock %} 
+{% macro render_field(field) %}
+<dt>{{ field.label }}
+  <dd>{{ field(**kwargs)|safe }}
+  {% if field.errors %}
+    <ul class=errors>
+      {% for error in field.errors %}
+        <li>{{ error }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  </dd>
+{% endmacro %}
+{% block articuloPrincipal %}
+  <h2> Datos usuario:  {{usuario}}</h2>
+  <!--si se completa la accion llama a register-->
+  <form method=post action='/register' class="edicion">
+    <dt>Nombre usuario <input type=text name="username" value={{form.username.data}}>
+    <br>
+    <dt>Nombre <input type=text name="name" value={{form.name.data}}>
+    <br>
+    <dt>Apellido <input type=text name="firstName" value={{form.firstName.data}}>
+    <br>
+    <dt>Apellido <input type=text name="secondName" value={{form.secondName.data}}>
+    <br>
+    <dt>Email  <input type=email name="email" value={{form.email.data}}>
+    <br>
+    <dt>Password <input type=password name="password" value={{form.password.data}}>
+    <br>
+    <dt>Confirmación <input type=password name="confirm" value={{form.confirm.data}}>
+    <br>
+    <br>
+     <br> 
+      {% for subfield in form.paymethod %}
+        <tr>
+            <td>{{ subfield }}</td>
+            <td>{{ subfield.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+     <dt>Número tarjeta <input type=text name="creditCard" value={{form.creditCard.data}}>
+      <br>
+      <dt>Fecha nacimiento <input type=date  name="birthday" value={{form.birthday.data}}>
+      <br>
+      <dt>Dirección <input type=text name="address" value={{form.address.data}}>
+      <br>
+      <br>Aceptar terminos servicio<input type="checkbox" name="accept_tos" required=true>
+      
+    </dt>
+    <p><input type=submit value=Editar campos>
+    </form>
+  {% endblock %}
+
+  {% block extra %}
+  {% endblock %}
+

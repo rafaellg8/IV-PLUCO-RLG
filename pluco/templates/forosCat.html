@@ -1,0 +1,90 @@
+{% extends "activity.html" %}
+{% block title %}
+  {% if usuario %}
+    {{usuario}}
+  {% else %}
+    Principal
+    {% endif %}
+{% endblock %}
+
+{% load static %}
+{% block panelLateral %}
+<div class="sidebar">
+  <a href="/plucoApp" id="logo"><img src="{% static "images/logo.png" %}" alt="logo" width=90 height=90></a>
+  <ul>
+    <li class="home">
+      <a href="/plucoApp/">Home</a>
+    </li>
+    <li class="about">
+      {% if usuario %}
+      <a href="/perfil">Perfil</a>
+      {% else %}
+       <a href="plucoApp/about">About</a>
+      {% endif %}
+    </li>
+    <li class="projects">
+      <a href="https://www.github.com/rafaellg8/DAI_PLUCO">Projects</a>
+    </li>
+    <li class="blog">
+      {%if usuario %}
+      <a href="/plucoApp/perfil">Edit</a>
+    </li>
+    {% else %}
+      <a href="/plucoApp/register/">Sign Up</a>
+    {% endif %}
+    <li class="contact">
+      <a href="/plucoApp/contact">Contact</a>
+    </li>
+  </ul>
+</div>
+{% endblock %}
+{% block cabeceraTitulo %}
+{% if usuario %}
+  <div class="botonera">
+    <a href="/logout"><button>logout</button></a>
+  </div>
+{% else %}
+<div class="botonera">
+  <a href="/plucoApp/login/"><button>login</button></a>
+  <a href="/plucoApp/register/"><button>register</button></a>
+</div>
+{% endif %}
+<div>
+  <h3><span class="beauty">PLUCO</span></h3>
+  <p style="float: left;margin-right: 400px;margin-top: 20px">
+    Plataforma Universitaria Compartición Conocimiento
+  </p>
+</div>
+{% endblock %}
+{% block articuloPrincipal %}
+{% if usuario %}
+  <div>
+    <h4>Bienvenido: </h4>
+    <h3>{{usuario}}</h3>
+  </div>
+{% else %}
+
+<h2>{{ forum_name }}</h2>
+       {% if theme %}
+           {% if comm %}
+
+           <ul><h4>Lista de Comentarios</h4>
+               {% for c in comm %}
+               <li><a href="/comentario/{{c.theme}}">{{ c.title }}</a></li>
+               {% endfor %}
+           </ul>
+           {% else %}
+               <strong>No pages currently in category.</strong>
+           {% endif %}
+       {% else %}
+           The specified theme {{ forum_name }} does not exist!
+       {% endif %}
+
+<div>
+  <p>Se trata de una plataforma académica de compartición de archivos de la Universidad de Granada, que permite la colaboración en grupo entre los usuarios del sistema.</p>
+
+  <p style="float: right;margin-top: -18%;margin-right: 0px;">Desarrollado por: <strong>Rafael Lachica Garrido</strong></p>
+
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends "activity.html" %} {% block title %} {% if usuario %} {{usuario}} - Foros {% else %} Foros {% endif %} {% endblock %} {% load static %} {% block panelLateral %} {% endblock %} {% block masOpciones %}
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-log-10 col-lg-offset-1 text-left">
+        <h1>Foros: {{theme}}</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Lista de Comentarios</h2>
+          </div>
+          {% if com %}
+          <section style="margin-top: 10%;padding-left: 25px">
+            <!-- Bucle mostrarmos todos los comentarios -->
+            {% for c in com %}
+            <table class="row table-custom" style="margin-top: 1%;background-color: #0AF;padding: 10px 0">
+              <tbody>
+                <tr>
+                  <th>
+                    <p>
+                      <h4 style="font-weight: bold">{{ c }}</h4></p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p><strong>Usuario: </strong>{{c.username}}</p>
+                    <p class="comentario">{{c.commentText}}</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>{{c.date}}</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- La id sera like0 o liken ,donde "n" es la id del comentario. Lo usamos para ocultar después el botón-->
+                    <button id="like{{c.idComment}}" data-catid="{{c.idComment}}" class="like btn btn-primary" type="button">
+                      <span class="fa fa-thumbs-o-up"></span> Like
+                    </button>
+                    <b id="{{c.idComment}}"  data-catid="{{c.idComment}}" class="fa fa-thumbs-up like-count" style="display: none; font-size: 150%">{{ c.likes }}</b>
+                    <!-- Como no se pueden tener 2 id con el mismo nombre, necesito replicar aquí también algo que diferencie, el data-catid que
+                    es el idComment -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            {% endfor %}
+          </section>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %} {% block botonesExtra %}
+<aside class="call-to-action bg-primary bt-Extra">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-20 text-left">
+        <h3>Nuevo comentario</h1>
+              <div>
+              <form method="POST" class="post-form">{% csrf_token %}
+                {{ commentForm.as_p }}
+                <button type="submit" class="save btn btn-dark">Nuevo comentario</button>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+{% endblock %}
+
+{% block articuloPrincipal %}{% endblock %}
+{% block map %}{% endblock %}
+{% block grafico %}{% endblock %}

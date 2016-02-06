@@ -1,0 +1,45 @@
+.background-footer{
+  background-color:  #d9d9d9;
+}
+
+.portfolio h1{
+  font-size: 500%;
+  font-weight: bold;
+}
+
+.background-portfolio {
+}
+
+.background-comentario {
+  padding-left: 8%;
+  background-color: #E4E7F0;
+  background: @include filter-gradient(#ffffff,#ededed,horizontal);
+  background: @include background-image(linear-gradient(left,
+    rgba(255, 255, 255, 1)0%,
+    rgba(246,246,246,1)47%,
+    rgba(237,237,237,1)100%);
+}
+
+.login {
+    border:outset 5px #000000;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.articuloPrincipal {
+  background: url(../images/articuloPrincipal.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: 10%;
+}

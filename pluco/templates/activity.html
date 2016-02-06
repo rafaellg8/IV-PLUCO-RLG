@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plataforma Universitaria de Comparticion del Conocimiento">
+    <meta name="author" content="Rafael Lachica Garrido">
+    <link rel="icon" href="{% static 'images/logo.png' %}">
+    <title>PLUCO &copy {% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awsome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link href="{% static 'css/stylish-portfolio.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/custom.css' %}" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- JS -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="{% static 'js/pluco.js' %}"></script>
+    <script src="{% static 'js/visitsGraphic.js' %}"></script>
+    <script src="{% static 'js/like.js' %}"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  {% block menu %}
+  <!-- Navigation -->
+   <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+   <!-- Default set the sidebar active-->
+   <nav id="sidebar-wrapper">
+       <ul class="sidebar-nav">
+           <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+           <li class="sidebar-brand">
+               <a href="/"  onclick = $("#menu-close").click(); ><img src="{% static 'images/logo.png' %}" width="10%" height="10%">PLUCO</a>
+           </li>
+           <li>
+               <a href="/" onclick = $("#menu-close").click(); ><span class="fa fa-home fa-stack-1x text-primary"></span> Home</a>
+           </li>
+           {% if user  and request.user.is_authenticated %}
+           <li>
+             <a href="/perfil" onclick=$("#menu-close").click(); >
+               {% if user.picture %}
+                     <img src=/media/{{user.picture}} width="28px" height="28px">
+                     <p class="color">{{user	}}</p>
+                 {% else %}
+                     <img src="{% static 'images/anonymous.png' %}" width="28px" height="28px">
+                     <p class="color">{{user	}}</p>
+                 {% endif %}
+              </a>
+           </li>
+
+           <li>
+               <a href="/plucoApp/logout" onclick = $("#menu-close").click(); ><span class="fa fa-sign-out fa-stack-1x text-primary"></span> Cerrar sesión</a>
+           </li>
+           {% else %}
+           <li>
+               <a href="/plucoApp/login" onclick = $("#menu-close").click(); ><span class="fa fa-sign-in fa-stack-1x text-primary"></span> Iniciar sesión</a>
+           </li>
+           <li>
+               <a href="/plucoApp/register" onclick = $("#menu-close").click(); ><span class="fa fa-pencil fa-stack-1x text-primary"></span> Regístrate</a>
+           </li>
+           {% endif %}
+           <li>
+               <a href="/foros/#services" onclick = $("#menu-close").click(); ><span class="fa fa-gears fa-stack-1x text-primary"></span> Servicios</a>
+           </li>
+           <li>
+               <a href="/foros" onclick = $("#menu-close").click(); ><span class="fa fa-comments fa-stack-1x text-primary"></span> Foros</a>
+           </li>
+           <li>
+               <a href="/plucoApp/about" onclick = $("#menu-close").click(); ><span class="fa fa-support fa-stack-1x text-primary"></span> Contacto</a>
+           </li>
+
+            <hr>
+            <li>
+               <a id='aumentar' href="#"><span class="fa fa-plus fa-stack-1x text-primary"></span>+ Texto</a>
+             </li>
+             <li>
+               <a id="disminuir" href="#"><span class="fa fa-minus fa-stack-1x text-primary"></span>- Texto</a>
+             </li>
+             <li>
+               <a id="reiniciar" href="#"><span class="fa fa-refresh fa-stack-1x text-primary"></span>Reiniciar</a>
+            </li>
+       </ul>
+   </nav>
+   {% endblock %}
+
+
+
+    <!-- Header -->
+    {% block cabeceraTitulo %}
+    <a href="/">
+    <header id="top" class="headerB">
+      <div style="float: right;margin-right: 20%;margin-top: 5%">
+        <div class="text-vertical-center">
+            <h1 style="color: white;font-size: 350%">PLUCO</h1>
+        </div>
+      <div>
+    </header>
+    </a>
+    {% endblock %}
+
+
+    <!-- Engloba toda la página expcepto el footer y el menu -->
+     <section class="page">
+    <!-- Callout -->
+    {% block articuloPrincipal %}
+    <article class="row-content" style="padding: 1% 1% 1% 1%">
+        <div class="col-sm-8 text-left">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </article>
+    {% endblock %}
+
+    {% block masOpciones %}
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio background-portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                          {% block masOpcionesItem %}
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                          {% endblock %}
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    {% endblock %}
+
+    {% block grafico %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 text-left">
+          <div id="container" style="height: 300px"></div>
+        </div>
+      </div>
+    </div>
+
+    {% endblock %}
+
+
+    <!-- Call to Action -->
+    {% block botonesExtra %}
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+   {% endblock %}
+
+   {% block about %}
+   <!-- About -->
+   <section id="about" class="about">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 text-center">
+                   <h2>Plataforma Universitaria de Compartición del Conocimiento</h2>
+                   <p class="lead">Desarrollado por: <a target="_blank" href="http://github.com/rafaellg8/">Rafael Lachica Garrido</a>.</p>
+               </div>
+           </div>
+           <!-- /.row -->
+       </div>
+       <!-- /.container -->
+   </section>
+   {% endblock %}
+
+   <!-- Services -->
+   <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+   {% block servicios %}
+   <section id="services" class="services bg-primary">
+       <div class="container">
+           <div class="row text-center">
+               <div class="col-lg-10 col-lg-offset-1">
+                   <h2>Servicios ofrecidos</h2>
+                   <hr class="small">
+                   <div class="row">
+                     {% block panelServicios %}
+                       <div class="col-md-3 col-sm-6">
+                           <div class="service-item">
+                               <span class="fa-stack fa-4x">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-comments fa-stack-1x text-primary"></i>
+                           </span>
+                               <h4>
+                                   <strong>Foros</strong>
+                               </h4>
+                               <p>Foros asociados a asignaturas y temas. Resuelve tus dudas.</p>
+                               <a href="/foros" class="btn btn-light">GO!</a>
+                           </div>
+                       </div>
+                       <div class="col-md-3 col-sm-6">
+                           <div class="service-item">
+                               <span class="fa-stack fa-4x">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-cloud-upload fa-stack-1x text-primary"></i>
+                           </span>
+                               <h4>
+                                   <strong>Almacenamiento Nube</strong>
+                               </h4>
+                               <p>Almacena tus archivos en la nube.</p>
+                               <a href="http://pluco-db.heroku.com" class="btn btn-light">GO!</a>
+                           </div>
+                       </div>
+                       <div class="col-md-3 col-sm-6">
+                           <div class="service-item">
+                               <span class="fa-stack fa-4x">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-database fa-stack-1x text-primary"></i>
+                           </span>
+                               <h4>
+                                   <strong>Asignaturas y Registro Completo</strong>
+                               </h4>
+                               <p>Accede a una base de datos completa y registra tus datos.</p>
+                               <a href="http://pluco-db.heroku.com" class="btn btn-light">GO!</a>
+                           </div>
+                       </div>
+                       <div class="col-md-3 col-sm-6">
+                           <div class="service-item">
+                               <span class="fa-stack fa-4x">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-info-circle fa-stack-1x text-primary"></i>
+                           </span>
+                               <h4>
+                                   <strong>Acerca de</strong>
+                               </h4>
+                               <p>Ayuda e información asociada</p>
+                               <a href="/about" class="btn btn-light">GO!</a>
+                           </div>
+                       </div>
+                       {% endblock %}
+                   </div>
+                   <!-- /.row (nested) -->
+               </div>
+               <!-- /.col-lg-10 -->
+           </div>
+           <!-- /.row -->
+       </div>
+       <!-- /.container -->
+   </section>
+   {% endblock %}
+
+    <!-- Map -->
+    {% block map %}
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
+    {% endblock %}
+
+  </section>
+
+    <!-- Footer -->
+    <footer class="background-footer">
+        <div class="container background-footer">
+            <div class="row background-footer">
+                <div class="col-lg-10 col-lg-offset-1 text-center background-footer">
+                  {% block footer %}
+                    <h4><strong>PLUCO &copy - Comparte el conocimiento</strong>
+                    </h4>
+                    <p>Granada<br>Grado Ingeniería Informática, 2015-2016</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:rafaellg8@correo.ugr.es">rafaellg8@correo.ugr.es</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rafaellg8/IV-PLUCO-RLG"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; PLUCO 2015/16</p>
+                 {% endblock %}
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    $(function() {
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+
+</body>
+
+</html>

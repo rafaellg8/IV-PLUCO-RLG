@@ -1,0 +1,76 @@
+{% extends "activity.html" %}
+{% block title %}
+  {% if usuario %}
+    {{usuario}} - Foros
+  {% else %}
+    Foros
+    {% endif %}
+{% endblock %}
+
+{% load static %}
+{% block masOpciones %}
+
+<section id="portfolio" class="portfolio background-portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-log-10 col-lg-offset-1 text-left">
+          <h1>Foros</h1>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+                <h2>Lista de Foros</h2>
+            </div>
+
+              {% if forum %}
+                    <div style="float: left padding-top: 1px">
+                      <table class="table">
+                        <tr>
+                          <th>
+                            <h3>Tema</h3>
+                          </th>
+                          <th>
+                            <h4>Número visitas</h4>
+                          </th>
+                        </tr>
+                       <tr>
+                        {% for f in forum %}
+                             <!--Following line changed to add an HTML hyperlink -->
+
+                                 <td><h4><a id="moreVisit" href="/foros/theme/{{ f.slug}}"> {{f.theme}}</a></h4></td>
+                                 <td><p>Visitas:{{ f.visits }}</p></td>
+                            </tr>
+                             {% endfor %}
+                      </table>
+                    </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
+
+
+{% block articuloPrincipal %}
+{% endblock %}
+
+
+
+
+{% block botonesExtra %}
+<aside class="call-to-action bg-primary bt-Extra">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-20 text-left">
+        <h3>Abrir tema/Foro</h3>
+          <form method="POST" class="post-form">{% csrf_token %}
+            {{form.as_p}}
+            <button type="submit" class="btn btn-lg btn-dark">Nuevo tema</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</aside>
+{% endblock %}
+
+{% block map %}{% endblock %}

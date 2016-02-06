@@ -1,0 +1,71 @@
+{% extends "activity.html" %}{% block title %}{{user}}{% endblock %}
+{% load easy_maps_tags %}
+{% load staticfiles %}
+{% load static %}
+{% block masOpciones %}
+  {% if update %}
+    <div class="alert alert-success" style="font-size: 20px; color: white;background-color: green">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color: white; font-size: 30px">&times;</a>
+    <strong>OK!</strong> Datos cambiados.</div>
+  {% endif %}
+  {% if user %}
+    <article class="container">
+      <div class="row">
+        <div>
+          <div>
+            <h1>Perfil</h1>
+            <div class="container">
+              <a href="#" class="post-body"><img class="post-body" src=/media/{{user.picture}} width="10%" height="10%"></a>
+              <h3>{{user}}</h3>
+            </div>
+          </div>
+          <hr>
+          <div style="padding-bottom: 14px">
+            <div style="padding: 1px 12px;background-color: #3AC;font-size: 15px;color: white">
+              <table class="table" >
+                <caption><h4 style="color: white;font-size: 250%">Mis datos</h4></caption>
+                <tr>
+                  <td>Foto de perfil:</td>
+                  <td><img src=/media/{{user.picture}} width="10%" height="10%" style="border: 1px solid black"></td>
+                </tr>
+                <tr>
+                  <td>
+                    Nombre:
+                  </td>
+                  <td>{{user}} </td>
+                </tr>
+                <tr>
+                  <td>
+                    Email:
+                  </td>
+                  <td>{{user.email}} </td>
+                </tr>
+                <tr>
+                  <td>Dirección:{{user.address}}</td>
+                  <td class="container">{% easy_map  user.address 350 210 using "easy_maps/map.html" %}</td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+        </article>
+      {% else %}
+      {% endif %}
+    {% endblock %}
+    {% block botonesExtra %}
+      <aside class="bg-primary" style="padding-bottom: 10px">
+        <div class="container">
+          <div class="row">
+            <div class="col text-left">
+              <h3>Modificar mis datos</h3>
+              <a href="/perfil/edit" class="btn btn-lg btn-dark">Editar perfil</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    {% endblock %}
+    {% block articuloPrincipal %}{% endblock %}
+    {% block grafico %}{% endblock %}
+    {% block servicios %}{% endblock %}
+    {% block about %}{% endblock %}
+    {% block map %}{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "index.html" %}
+{% block title %}
+  {% if user %}
+    {{user}}
+  {% else %}
+    Principal
+  {% endif %}
+{% endblock %}
+{% load static %}
+{% block panelLateral %}
+{% endblock %}
+{% block cabeceraTitulo %}
+  <header id="top" class="header">
+  <div style="margin-top: 10%;margin-left: 10%;margin-bottom: 10%">
+    <div class="text-vertical-center">
+        <img src="{% static 'images/logo.png' %}">
+        <h1>PLUCO</h1>
+        <h3>Comparte el Conocimiento</h3>
+        <a href="#about" class="btn btn-dark btn-lg">Servicios</a>
+        <br>
+    </div>
+  </div>
+  <aside  class="text-vertical-left login" style="float: right;margin-right: 20%">
+    <h1 style="color: white;font-size: 200%;font-weight: bold ">LOGIN:</h1>
+      <form id="login_form" action="/plucoApp/login/" method="post" style="padding-left: 1px;padding-right: 1px">
+                {% csrf_token %}
+                      <p><input type=text name=username placeholder="nombre usuario">
+                      <input type=password name=password placeholder="contraseña"></p>
+                      <p><input class="btn btn-dark btn-lg" style="background-color: rgba(0,255,0,0.7)" type=submit value=Login>
+                      <a href="/register" class="btn btn-dark btn-lg" style="background-color: rgba(255, 0, 0, 0.7)">Regístrate</a>
+                    </p>
+      </form>
+  </aside>
+</header>
+
+{% endblock %}
+{% block articuloPrincipal %}
+  {% if user.is_authenticated or user%}
+    <div>
+      <h1 style="font-size: 520%">Bienvenido: {{user}}</h1>
+      <br>
+      <p>Se trata de una plataforma académica de compartición de archivos de la Universidad de Granada, que permite la colaboración en grupo entre los usuarios del sistema.</p>
+    </div>
+  {% else %}
+    <div style="font-size: 15px" class="row">
+      <div class="col-lg-12">
+        <br>
+        <h1>PLUCO</h1>
+        <hr>
+        <p>Se trata de una plataforma académica de compartición de archivos de la Universidad de Granada, que permite la colaboración en grupo entre los usuarios del sistema.</p>
+        <p>Ofrecemos</p>
+        <ol>
+          <li><strong>Foros:</strong> comunicación entre usuarios a través de foros.</li>
+          <li><strong>Almacenamiento en la nube:</strong> almacenamiento de archivos y recuros en una nube externa.</li>
+          <li><strong>Gestión de información en base de datos:</strong> almacenamiento de la información, mantenimiento de los usuarios y registro de los mismos. Acceso de forma dinámica y accesible a los datos de los usuarios, asignaturas, profesores, etc.</li>
+          <li><strong>Accesibilidad</strong>: acceso multidispositivo, para cualquier usuario desde cualquier dispositivo.</li>
+        </ol>
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}
+{% block botonesExtra %}{% endblock %}
+{% block map %}{% endblock %}
+{% block masOpciones %}{% endblock %}

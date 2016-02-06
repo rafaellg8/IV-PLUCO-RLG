@@ -1,0 +1,34 @@
+VAGRANTFILE_API_VERSION = '2'
+  Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = 'azure'
+  config.vm.network "public_network"
+  config.vm.network "private_network",ip: "192.168.56.10", virtualbox__intnet: "vboxnet0"
+  config.vm.network "forwarded_port", guest: 8000, host: 8000
+  config.vm.define "localhost" do |l|
+    l.vm.hostname = "localhost"
+  end
+
+  config.vm.provider :azure do |azure|
+    azure.mgmt_certificate = File.expand_path('clavesAzure/azure.pem')
+    azure.mgmt_endpoint = 'https://management.core.windows.net'
+    azure.subscription_id = '2cc2475d-2e3d-4d07-b873-e46b595373f7'
+    azure.vm_image = 'b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-14_04_3-LTS-amd64-server-20160114.5-en-us-30GB'
+    azure.vm_name = 'pluco'
+    azure.vm_user = 'pluco'
+    azure.vm_password = 'AzurePluco1!'
+    azure.cloud_service_name = 'pluco'
+    azure.vm_location = 'Japan West'
+    azure.ssh_port = '22'
+    azure.tcp_endpoints = '8000:80'
+  end
+
+  config.ssh.username = 'pluco'
+  config.ssh.password = 'AzurePluco1!'
+
+  config.vm.provision "ansible" do |ansible|
+    ansible.sudo = true
+    ansible.playbook = "deployBook.yml"
+    ansible.verbose = "v"
+    ansible.host_key_checking = false
+  end
+end

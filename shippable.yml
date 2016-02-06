@@ -1,0 +1,73 @@
+language: python
+build_image: shippableimages/ubuntu1204_python
+python:
+  - 2.6
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+  - pypy
+author:
+  - Rafael Lachica Garrido
+name:
+  - Pluco RLG
+description:
+  - A platform for sharing information, with forums to sharing issues and resolve problems.
+install:
+ - pip install pyyaml
+ - pip install grunt-django
+ - pip install nose
+ - pip install pytest
+ - pip install tox
+ - pip install pytest-cov
+ - pip install pytest-xdist
+ - easy_install nose
+ - pip install pystache
+ - pip install pygments
+ - pip install markdown
+ - pip install importlib
+ - pip install pyccoon
+ - pip install flask
+ - pip install epydoc
+ - pip install wtforms
+ - pip install pymongo
+ - pip install django
+ - pip install macros
+ - pip install Pillow==3.0
+ - pip install django-bootstrap-toolkit
+ - pip install django-registration-redux
+ - pip install unicodecsv
+
+before_install:
+  - apt-get -y update --fix-missing
+  - apt-get -y upgrade --fix-missing
+  - apt-get -y build-dep python-imaging
+  - apt-get install -y python-dev
+  - apt-get install -y python2.7-dev
+  - apt-get install -y libpq-dev
+  - apt-get install -y nano
+  - apt-get install -y libffi-dev
+  - apt-get install -y libffi6
+  - apt-get install -y python-pip
+  - apt-get install -y libfreetype6*
+  - apt-get install -y freetype2*
+  - apt-get -y install libjpeg8 libjpeg62-dev
+  - apt-get -y install fabric
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+
+# Make folders for the reports
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+  - mkdir -p shippable/documentation
+  - mkdir -p shippable/test
+
+script:
+  - which python
+  - make run
+
+  #Basic test central
+  - make test
+  #Distribution load test
+  #- py.test --cov= -n 2 tests/

@@ -1,0 +1,63 @@
+{% extends "activity.html" %}
+{% block title %}
+    Error Register
+{% endblock %}
+
+{% block panelLateral %}
+<div class="sidebar">
+  <a href="/plucoApp/" id="logo"><img src="/static/images/logo.png" alt="logo" width=90 height=90></a>
+  <ul>
+    <li class="home">
+      <a href="/plucoApp/">Home</a>
+    </li>
+    <li class="about">
+      {% if usuario %}
+      <a href="/perfil">Perfil</a>
+      {% else %}
+      <a href="https://www.github.com/rafaellg8">About</a>
+      {% endif %}
+    </li>
+    <li class="projects">
+      <a href="https://www.github.com/rafaellg8/DAI_PLUCO">Projects</a>
+    </li>
+    <li class="blog">
+      <a href="/plucoApp/register/">Sign Up</a>
+    </li>
+    <li class="contact">
+      <a href="/contact">Contact</a>
+    </li>
+  </ul>
+</div>
+{% endblock %}
+{% block cabeceraTitulo %}
+
+<div class="botonera">
+  <a href="/login"><button>login</button></a>
+  <a href="/plucoApp/register/"><button>register</button></a>
+</div>
+
+<div>
+  <h3><span class="beauty">PLUCO</span></h3>
+  <p style="float: left;margin-right: 400px;margin-top: 20px">
+    Plataforma Universitaria Compartición Conocimiento
+  </p>
+</div>
+{% endblock %}
+{% block articuloPrincipal %}
+
+  <div>
+    <h4>ERROR: </h4>
+    <h4>Usuario ocupado elija otro</h4>
+    <a <a href="/plucoApp/register/">Volver registro y cambiar username</a>
+  </div>
+
+<div>
+  <p>Vuelva a pulsar Login o Registrese si no lo está. Gracias.</p>
+
+  <p style="float: right;margin-top: -18%;margin-right: 0px;">Desarrollado por: <strong>Rafael Lachica Garrido</strong></p>
+
+</div>
+{% endblock %}
+
+
+{% block grafico %}{% endblock %}

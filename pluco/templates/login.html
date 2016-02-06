@@ -1,0 +1,88 @@
+{% extends "index.html" %}
+{% load static %}
+{% block title %}
+    Login
+{% endblock %}
+
+{% block menuNavegacion %}
+<!-- Navigation -->
+ <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+ <nav id="sidebar-wrapper">
+     <ul class="sidebar-nav">
+         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+         <li class="sidebar-brand">
+             <a href="/"  onclick = $("#menu-close").click(); ><img src="{% static 'images/logo.png' %}" width="10%" height="10%">PLUCO</a>
+         </li>
+         <li>
+             <a href="/" onclick = $("#menu-close").click(); ><span class="fa fa-home fa-stack-1x text-primary"></span> Home</a>
+         </li>
+         {% if user  and request.user.is_authenticated %}
+         <li>
+           <a href="/perfil" onclick=$("#menu-close").click(); >
+             {% if user.picture %}
+                   <img src=media/{{user.picture}} width="28px" height="28px">
+                   <p class="color">{{user	}}</p>
+               {% else %}
+                   <img src="{% static 'images/anonymous.png' %}" width="28px" height="28px">
+                   <p class="color">{{user	}}</p>
+               {% endif %}
+            </a>
+         </li>
+
+         <li>
+             <a href="/plucoApp/logout" onclick = $("#menu-close").click(); ><span class="fa fa-sign-out fa-stack-1x text-primary"></span> Cerrar sesión</a>
+         </li>
+         {% else %}
+         <li>
+             <a href="/plucoApp/login" onclick = $("#menu-close").click(); ><span class="fa fa-sign-in fa-stack-1x text-primary"></span> Iniciar sesión</a>
+         </li>
+         <li>
+             <a href="/plucoApp/register" onclick = $("#menu-close").click(); ><span class="fa fa-pencil fa-stack-1x text-primary"></span> Regístrate</a>
+         </li>
+         {% endif %}
+         <li>
+             <a href="/foros" onclick = $("#menu-close").click(); ><span class="fa fa-comments fa-stack-1x text-primary"></span> Foros</a>
+         </li>
+         <li>
+             <a href="/plucoApp/about" onclick = $("#menu-close").click(); ><span class="fa fa-support fa-stack-1x text-primary"></span> Contacto</a>
+         </li>
+     </ul>
+ </nav>
+ {% endblock %}
+
+{% block cabeceraTitulo %}
+<header id="top" class="header">
+  <div style="margin-top: 10%;margin-left: 10%;margin-bottom: 10%">
+    <div class="text-vertical-center">
+        <img src="{% static 'images/logo.png' %}">
+        <h1>PLUCO</h1>
+        <h3>Comparte el Conocimiento</h3>
+        <br>
+    </div>
+  </div>
+  <aside  class="text-vertical-left login" style="float: right;margin-right: 20%">
+    <h1 style="color: white;font-size: 200%;font-weight: bold ">LOGIN:</h1>
+      <form id="login_form" action="/plucoApp/login/" method="post" style="padding-left: 1px;padding-right: 1px">
+                {% csrf_token %}
+                      <p><input type=text name=username placeholder="nombre usuario">
+                      <input type=password name=password placeholder="contraseña"></p>
+                      <p><input type=submit value=Login></p>
+      </form>
+  </aside>
+</header>
+{% endblock %}
+
+{% block panelLateral %}
+{% endblock %}
+
+{% block articuloPrincipal %}
+{% endblock %}
+
+{% block masOpciones %}
+{% endblock %}
+
+{% block botonesExtra %}{% endblock %}
+{% block about %}{% endblock %}
+{% block servicios %}{% endblock %}
+{% block panelServicios %}{% endblock %}
+{% block map %}{% endblock %}

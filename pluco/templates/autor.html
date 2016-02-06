@@ -1,0 +1,88 @@
+{% extends "index.html" %}
+{% block title %}
+  {% if usuario %}
+    <title>PLUCO - {{usuario}} - Autor</title>
+  {% else %}
+  <title>PLUCO - Autor</title>
+  {% endif %}
+{% endblock %}
+
+{% block menuLateral %}
+<div class="sidebar">
+  <a href="/plucoApp/" id="logo"><img src="/static/images/logo.png" alt="logo" width=90 height=90></a>
+  <ul>
+    <li class="home">
+      <a href="/plucoApp/">Home</a>
+    </li>
+    <li class="about">
+      {% if usuario %}
+      <a href="/perfil">Perfil</a>
+      {% else %}
+      <a href="https://www.github.com/rafaellg8">About</a>
+      {% endif %}
+    </li>
+    <li class="projects">
+      <a href="https://www.github.com/rafaellg8/DAI_PLUCO">Projects</a>
+    </li>
+    <li class="blog">
+      <a href="/plucoApp/register/">Sign Up</a>
+    </li>
+    {% if usuario %}
+    <li >
+      <a href="/recentpage">Last Page</a>
+    </li>
+    {% endif %}
+  </ul>
+</div>
+{% endblock %}
+
+{% block cuerpo %}
+    <h3>Developed by: </h3>
+    <h4> Rafael Lachica Garrido &copy;</h4>
+    <p>Uso de Flask, WTFORMS, y otros frameworks.</p>
+    <p> DAI - 2015-2016</p>
+{% endblock %}
+
+{% block sidebar %}
+<div class="sidebar" style="margin-left: 550px">
+  <h3>Contact Info</h3>
+  <span>Address</span>
+  <p>
+    3933 Melrose Street <br> Spokane Valley, WA 99206
+  </p>
+  <span>Talk To Us</span>
+  <p>
+    Phone: 509.998.7719 <br> Email: <a href="@">info@originsarchitects.com</a>
+  </p>
+  <span>Office Hours</span>
+  <p>
+    Mondays to Fridays <br> 9:00 am to 5:00 pm <br><br> Saturdays <br> 9:00 am to 12:00 pm <br><br> Sundays <br> By appointment only
+  </p>
+</div>
+{% endblock %}
+
+{% block footer  %}
+<div class="footer">
+  <p>
+    &#169; 2015-2016 Rafael Lachica Garrido
+  </p>
+  <ul>
+    <li>
+      <a href="/plucoApp/">Home</a>
+    </li>
+    <li>
+      <a href="https://www.github.com/rafaellg8/IV-PLUCO-RLG">About</a>
+    </li>
+    <li>
+      <a href="https://www.github.com/rafaellg8/DAI_PLUCO">Projects</a>
+    </li>
+    <li>
+      <a href="/plucoApp/register/">Sign up</a>
+    </li>
+    <li>
+      <a href="/contact">Contact</a>
+    </li>
+  </ul>
+</div>
+</div>
+{% endblock %}

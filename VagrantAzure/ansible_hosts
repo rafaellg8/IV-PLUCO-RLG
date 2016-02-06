@@ -1,0 +1,8 @@
+[localhost]
+127.0.0.1	ansible_connection=local
+
+[pluco]
+pluco.cloudapp.net
+
+[plucoPlayBook]
+prueba-iv-rlg.cloudapp.net ansible_sudo_pass='PlucoAzure1!'

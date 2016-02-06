@@ -1,0 +1,23 @@
+---
+- hosts: localhost
+  sudo: yes
+  remote_user: pluco
+  tasks:
+  - name: Actualizar sistema base
+    apt: update_cache=yes upgrade=dist
+  - name: Instalar paquetes necesarios
+    action: apt pkg={{ item }} state=installed
+    with_items:
+      - python-setuptools
+      - python-dev
+      - build-essential
+      - git
+      - make
+  - name: Git clone, pluco
+    git: repo=https://github.com/rafaellg8/IV-PLUCO-RLG.git dest=IV-PLUCO-RLG clone=yes force=yes
+
+  - name: Ejecutando Make install
+    command: chdir=IV-PLUCO-RLG make install
+
+  - name: Make run
+    command: chdir=IV-PLUCO-RLG make run

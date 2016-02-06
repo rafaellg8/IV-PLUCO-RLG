@@ -1,0 +1,31 @@
+{% extends "activity.html" %}
+{% block title %}
+    Error Login
+{% endblock %}
+
+{% block articuloPrincipal %}
+
+<div class="alert alert-danger" style="font-size: 20px; background-color:  #ff1a1a; color: white">
+  {% if error %}
+   <a href="/login" class="close" data-dismiss="alert" aria-label="close" style="color: white; font-size: 30px">&times;</a>
+   <strong>Error!</strong> Usuario o contraseña incorrectas.
+  <p><a href="/login"><button type="button" class="btn btn-default">Login</button></a></p>
+  {% else %}
+  <a href="/register" class="close" data-dismiss="alert" aria-label="close" style="color: white; font-size: 30px">&times;</a>
+  <strong>Error!</strong> Usuario inexistente, regístrese.
+  <p><a href="/register"><button type="button" class="btn btn-default">Registrar</button></a></p>
+  {% endif %}
+ </div>
+{% endblock %}
+
+{% block panelLateral %}
+{% endblock %}
+{% block masOpciones %}
+{% endblock %}
+
+{% block botonesExtra %}{% endblock %}
+{% block about %}{% endblock %}
+{% block servicios %}{% endblock %}
+{% block panelServicios %}{% endblock %}
+{% block grafico %}{% endblock %}
+{% block map %}{% endblock %}

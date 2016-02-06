@@ -1,0 +1,117 @@
+{% extends "activity.html" %}{% block title %}{{user}}{% endblock %}
+{% load easy_maps_tags %}
+{% load staticfiles %}
+
+{% block menu %}
+<!-- Navigation -->
+ <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+ <nav id="sidebar-wrapper">
+     <ul class="sidebar-nav">
+         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+         <li class="sidebar-brand">
+             <a href="/"  onclick = $("#menu-close").click(); ><img src="{% static 'images/logo.png' %}" width="10%" height="10%">PLUCO</a>
+         </li>
+         <li>
+             <a href="/" onclick = $("#menu-close").click(); ><span class="fa fa-home fa-stack-1x text-primary"></span> Home</a>
+         </li>
+         {% if user  and request.user.is_authenticated %}
+         <li>
+           <a href="/perfil" onclick=$("#menu-close").click(); >
+             {% if user.picture %}
+                   <img src=/media/{{user.picture}} width="28px" height="28px">
+                   <p class="color">{{user	}}</p>
+               {% else %}
+                   <img src="{% static 'images/anonymous.png' %}" width="28px" height="28px">
+                   <p class="color">{{user	}}</p>
+               {% endif %}
+            </a>
+         </li>
+
+         <li>
+             <a href="/plucoApp/logout" onclick = $("#menu-close").click(); ><span class="fa fa-sign-out fa-stack-1x text-primary"></span> Cerrar sesión</a>
+         </li>
+         {% else %}
+         <li>
+             <a href="/plucoApp/login" onclick = $("#menu-close").click(); ><span class="fa fa-sign-in fa-stack-1x text-primary"></span> Iniciar sesión</a>
+         </li>
+         <li>
+             <a href="/plucoApp/register" onclick = $("#menu-close").click(); ><span class="fa fa-pencil fa-stack-1x text-primary"></span> Regístrate</a>
+         </li>
+         {% endif %}
+         <li>
+             <a href="/foros/#services" onclick = $("#menu-close").click(); ><span class="fa fa-gears fa-stack-1x text-primary"></span> Servicios</a>
+         </li>
+         <li>
+             <a href="/foros" onclick = $("#menu-close").click(); ><span class="fa fa-comments fa-stack-1x text-primary"></span> Foros</a>
+         </li>
+         <li>
+             <a href="/plucoApp/about" onclick = $("#menu-close").click(); ><span class="fa fa-support fa-stack-1x text-primary"></span> Contacto</a>
+         </li>
+     </ul>
+ </nav>
+ {% endblock %}
+
+{% block masOpciones %}
+{% if user %}
+<article class="container">
+  <div class="row">
+    <div>
+      <div>
+        <h3>Bienvenido: </h3>
+        <h3 >{{user}}</h3>
+      </div>
+      <hr>
+      <div style="padding-bottom: 14px">
+        <h4>Datos usuario:</h4>
+        <div style="padding: 1px 12px;background-color: #3AC;font-size: 15px;color: white">
+
+          <form class="" action="/perfil/edit" method="post">
+               {% csrf_token %}
+               <div class="form-group">
+               <p class="required"> <label for="id_username">nombre usuario:</label>
+                   <input class="form-control"  id="id_username" maxlength="30" name="username" type="text"  value={{user.user.username}} />{{user.user.username}}</p>
+              </div>
+
+              <div class="form-group">
+              <p class="required"> <label for="id_email">email:</label>
+                  <input class="form-control"  id="id_email" maxlength="30" name="email" type="text"  value={{user.email}} />{{user.email}}</p>
+             </div>
+
+             <div class="form-group">
+             <p class="required"><label for="id_address">Dirección postal:</label>
+                 <input class="form-control"  id="id_address" name="address" type="text" value="{{user.address}}" />{{user.address}}</p>
+            </div>
+
+            <div class="form-group">
+              <p>Avatar:<input id="id_picture" name="picture" type="file" /></p>
+            </div>
+
+            <div class="form-group">
+            <p class="required"> <label for="id_password">Cambiar Contraseña:</label>
+                <input class="form-control"  id="id_password" maxlength="30" name="password" type="password"  value="" /></p>
+           </div>
+
+           <div class="form-group">
+           <p class="required"> <label for="id_password2">Confirmar contraseña:</label>
+               <input class="form-control"  id="id_password2" maxlength="30" name="password2" type="password"  value="" /></p>
+          </div>
+             <button type="submit" action="/perfil/edit" class="save btn btn-dark">Guardar</button>
+          </form>
+
+
+  </div>
+</div>
+</article>
+{% else %}
+{% endif %}
+{% endblock %}
+
+
+{% block botonesExtra %}
+{% endblock %}
+
+{% block articuloPrincipal %}{% endblock %}
+{% block servicios %}{% endblock %}
+{% block about %}{% endblock %}
+{% block grafico %}{% endblock %}
+{% block map %}{% endblock %}
