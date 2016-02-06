@@ -18,7 +18,7 @@ def test():
             'Testing SecondName','0001-01-01','testing@mail.com','password','Granada, España')
 
       #añadimos ahora el testing user y el forum como una clave externa a comentarios
-      addComment(forum,1,'Testeando','Testeando un comentario',testingUser,'http://urlnube/recurso',datetime.date.today())
+      addComment(forum,1,'Testeando','Testeando un comentario',testingUser,datetime.date.today())
 
       for f in Forum.objects.all():
             for c in Comment.objects.all():
@@ -33,8 +33,8 @@ def addUser(username,name,firstName,secondName,birthday,email,password,address):
       u = User.objects.get_or_create(username=username,first_name=firstName,email=email,password=password,)[0]
       return u
 
-def addComment(forum,idC,tit,commentTxt,user,url,date):
-      com = Comment.objects.get_or_create(theme=forum,idComment=idC,title=tit,commentText=commentTxt,username=user,url=url,date=date)[0]
+def addComment(forum,idC,tit,commentTxt,user,date):
+      com = Comment.objects.get_or_create(theme=forum,idComment=idC,title=tit,commentText=commentTxt,username=user,date=date)[0]
       return com
 
 if __name__ == '__main__':
