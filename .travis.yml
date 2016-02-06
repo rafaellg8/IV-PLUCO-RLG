@@ -1,0 +1,74 @@
+build_environment: Ubuntu 14.04
+
+python:
+  - 2.6
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+  - pypy
+author:
+  - Rafael Lachica Garrido
+name:
+  - Pluco RLG
+description:
+  - A platform for sharing information, with forums to sharing issues and resolve problems.
+install:
+ - sudo pip install pyyaml
+ - sudo pip install grunt-django
+ - sudo pip install nose
+ - sudo pip install pytest
+ - sudo pip install tox
+ - sudo pip install pytest-cov
+ - sudo pip install pytest-xdist
+ - sudo easy_install nose
+ - sudo pip install pystache
+ - sudo pip install pygments
+ - sudo pip install markdown
+ - sudo pip install importlib
+ - sudo pip install pyccoon
+ - sudo pip install flask
+ - sudo pip install epydoc
+ - sudo pip install wtforms
+ - sudo pip install pymongo
+ - sudo pip install django
+ - sudo pip install macros
+ - sudo pip install Pillow==3.0
+ - sudo pip install django-bootstrap-toolkit
+ - sudo pip install django-registration-redux
+ - sudo pip install unicodecsv
+
+before_install:
+  - sudo apt-get -y update --fix-missing
+  - sudo apt-get -y build-dep python-imaging
+  - sudo apt-get install -y python-dev
+  - sudo apt-get install -y python2.7-dev
+  - sudo apt-get install -y libpq-dev
+  - sudo apt-get install -y nano
+  - sudo apt-get install -y libffi-dev
+  - sudo apt-get install -y libffi6
+  - sudo apt-get install -y python-pip
+  - sudo apt-get install -y libfreetype6*
+  - sudo apt-get install -y freetype2*
+  - sudo apt-get -y install libjpeg8 libjpeg62-dev
+  - sudo apt-get -y install fabric
+  - sudo pip install --upgrade pip
+  - sudo pip install -r requirements.txt
+
+# Make folders for the reports
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+  - mkdir -p shippable/documentation
+  - mkdir -p shippable/test
+
+script:
+  - which python
+  - make run
+
+  #Basic test central
+  - rm pluco/db.sqlite3
+  - make migrate
+  #- make test
+  #Distribution load test
+  #- py.test --cov= -n 2 tests/

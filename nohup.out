@@ -741,3 +741,34 @@ Error: That port is already in use.
 [06/Feb/2016 09:20:39]"GET /static/css/custom.css HTTP/1.1" 304 0
 [06/Feb/2016 09:20:39]"GET /static/images/logo.png HTTP/1.1" 304 0
 [06/Feb/2016 09:20:39]"GET /foros/reclama_datos HTTP/1.1" 200 27
+[06/Feb/2016 09:32:49]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 09:32:51]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7638
+[06/Feb/2016 09:32:52]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 09:32:52]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 09:32:52]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 09:32:52]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 09:32:52]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:32:53]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 09:32:54]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:32:55]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+[06/Feb/2016 09:33:30]"GET /static HTTP/1.1" 301 0
+[06/Feb/2016 09:33:30]"GET /static/ HTTP/1.1" 404 1724
+[06/Feb/2016 09:34:49]"GET /foros/ HTTP/1.1" 302 0
+[06/Feb/2016 09:34:49]"GET /accounts/login/?next=/foros/ HTTP/1.1" 200 7638
+[06/Feb/2016 09:34:50]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:34:50]"GET /static/css/stylish-portfolio.css HTTP/1.1" 304 0
+[06/Feb/2016 09:34:51]"GET /static/css/custom.css HTTP/1.1" 304 0
+[06/Feb/2016 09:34:51]"GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Feb/2016 09:34:51]"GET /static/js/jquery.js HTTP/1.1" 304 0
+[06/Feb/2016 09:34:51]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:34:52]"GET /static/images/logo.png HTTP/1.1" 304 0
+[06/Feb/2016 09:34:52]"GET /static/images/background-dev.jpg HTTP/1.1" 304 0
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+/usr/local/lib/python2.7/dist-packages/django/contrib/sites/models.py:78: RemovedInDjango19Warning: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Site(models.Model):
+
+[06/Feb/2016 09:36:29]"GET / HTTP/1.1" 200 13234
+[06/Feb/2016 09:36:29]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
+[06/Feb/2016 09:36:30]"GET /static/js/pluco-ajax.js HTTP/1.1" 404 1762
