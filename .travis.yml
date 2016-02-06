@@ -69,6 +69,6 @@ script:
   #Basic test central
   - rm pluco/db.sqlite3
   - make migrate
-  #- make test
+  - make test
   #Distribution load test
   #- py.test --cov= -n 2 tests/
