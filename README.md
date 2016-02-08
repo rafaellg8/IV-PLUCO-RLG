@@ -191,7 +191,7 @@ Acerca de mi despliegue [+info](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/m
 Para el despliegue de la app, he usado la suscripción que tengo de Azure. He montado los servidores con Vagrant en Azure y los he desplegado
 y ejecutado con Ansible.
 
-Básicamente para desplegar la app, he tenido que configurar los archivos de [VagrantFile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/Vagrantfile), y el archivo de despligue de ansible [deployBook](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/ansible_hosts).
+Básicamente para desplegar la app, he tenido que configurar los archivos de [VagrantFile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/VagrantAzure/Vagrantfile), y el archivo de despligue de ansible [deployBook](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/VagrantAzure/deployBook.yml).
 
 He configurado el [Makefile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/Makefile), para que sólo tenga que hacer un ```make despligue```, para que se despligue todo en azure.
 
