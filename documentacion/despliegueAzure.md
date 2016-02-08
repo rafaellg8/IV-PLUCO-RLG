@@ -29,7 +29,7 @@ Todos estos pasos están detallados en el siguiente [documento](https://github.c
 
 ##3. Configurando el archivo de desarrollo de ansible
 
-Aquí, en el archivo [deployBook.yml](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/deployBook.yml), tenemos la configuración para la instalación y despligue de la app dentro de una máquina.
+Aquí, en el archivo [deployBook.yml](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/VagrantAzure/deployBook.yml), tenemos la configuración para la instalación y despligue de la app dentro de una máquina.
 ```
 ---
 - hosts: localhost
@@ -78,7 +78,7 @@ La ejecución la haremos más adelante cuando hayamos creado el servidor en el s
 
 
 ##4. Creando el archivo de aprovisionamiento VagrantFile y creando el servidor en Azure
-Para crear la máquina en Azure, necesitamos crear un [VagrantFile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/Vagrantfile), donde tendremos la configuración de por ejemplo, que servidor queremos, nombre de usuario, puertos, etc.
+Para crear la máquina en Azure, necesitamos crear un [VagrantFile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/VagrantAzure/Vagrantfile), donde tendremos la configuración de por ejemplo, que servidor queremos, nombre de usuario, puertos, etc.
 
 Creamos el Vagrant File con nuestras necesidades.
  **NOTA** como indica el tutorial, hay que añadir nuestra cuenta de Azure y sus ficheros pem con el que usamos para el certificado y loguearnos:
