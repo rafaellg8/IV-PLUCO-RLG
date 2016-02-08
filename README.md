@@ -47,16 +47,8 @@ Al final del proyecto, deberemos enlazar en conjunto las tres partes del proyect
 
 Para la integración continúa usaré el [Shippable](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/documentacion/Shippable.md) y  [Travis](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/documentacion/Travis.md)
 
-Para los test usaré la herramienta [Nose](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/documentacion/Nose.md)
-
 Si quiere más info puede consultar la configuración de los archivo Makefile del proyecto donde se llaman a los test y se ejecutan la aplicación. [más info](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/Makefile)
 
-#Migración de base de Datos en MongoDB
-He configurado las base de datos en MongoDB a través de **MongoLabs**, que podemos tener una base de datos de forma remota.
-Para ello tenemos varios ficheros como el de configuración de MongoDB
-[MongoDB](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/plucorlg/configdb.py)
-
-Hablamos aquí un poco de la configuración del archivo en más detalle: [configuraciónMongo](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/plucorlg/configdb.py)
 
 #Configuracion
 Para la configuración voy a usar un archivo makefile que generará los tests pertinentes, la documentación y por último ejecutará la aplicación. Aquí dejo un fragmento de mi Makefile, el cual llama al archivo testing pluco para procesar los test y pone a funcionar la app y su despliegue automático.
@@ -112,6 +104,8 @@ De manera que nos queda
 -- **Comentario de prueba** por parte del **Usuario de Prueba**
 
 Todo el test se ejecuta automáticamente desde el [Makefile](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/Makefile), el cual llamará a **NOSETESTS** que ejecutará la batería de tests.
+
+Para los test usaré la herramienta [Nose](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/documentacion/Nose.md)
 
 #Despligue de la app en el PaaS HEROKU
 
