@@ -91,5 +91,5 @@ docker:
 run:
 	$(MAKE) collect
 	$(MAKE) migrate
-	sudo chmod a+wr pluco/db.sqlite3
+	#sudo chmod a+wr pluco/db.sqlite3
 	nohup python pluco/manage.py runserver 0.0.0.0:8000 &
