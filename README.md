@@ -7,7 +7,7 @@ Rafael Lachica Garrido
 [![Build Status](https://travis-ci.org/rafaellg8/IV-PLUCO-RLG.svg?branch=master)](https://travis-ci.org/rafaellg8/IV-PLUCO-RLG)
 [![Shippable](https://img.shields.io/shippable/561d708d1895ca44741d9f63.svg)](https://app.shippable.com/projects/561beb831895ca44741d2a7b)
 [![Build Status](https://snap-ci.com/rafaellg8/IV-PLUCO-RLG/branch/master/build_image)](https://snap-ci.com/rafaellg8/IV-PLUCO-RLG/branch/master)
-[img src="http://azuredeploy.net/deploybutton.png" alt="Azure" height=32](http://pluco.cloudapp.net/)
+[<img src="http://azuredeploy.net/deploybutton.png" alt="Azure" height=32>](http://pluco.cloudapp.net/)
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](http://pluco.herokuapp.com/)
 
 #INFRAESTRUCTURA VIRTUAL
