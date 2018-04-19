@@ -1,20 +1,20 @@
 # IV-PLUCO-RLG
 
-##Proyecto PLUCO - Red Social PLUCO
+#Proyecto PLUCO - Red Social PLUCO
 
 ==
 Rafael Lachica Garrido
 [![Build Status](https://travis-ci.org/rafaellg8/IV-PLUCO-RLG.svg?branch=master)](https://travis-ci.org/rafaellg8/IV-PLUCO-RLG)
 [![Shippable](https://img.shields.io/shippable/561d708d1895ca44741d9f63.svg)](https://app.shippable.com/projects/561beb831895ca44741d2a7b)
 [![Build Status](https://snap-ci.com/rafaellg8/IV-PLUCO-RLG/branch/master/build_image)](https://snap-ci.com/rafaellg8/IV-PLUCO-RLG/branch/master)
-[<img src="http://azuredeploy.net/deploybutton.png" alt="Azure" height=32>](http://pluco.cloudapp.net/)
-[![Heroku](https://www.herokucdn.com/deploy/button.png)](http://plucorlg.herokuapp.com/)
+[img src="http://azuredeploy.net/deploybutton.png" alt="Azure" height=32](http://pluco.cloudapp.net/)
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](http://pluco.herokuapp.com/)
 
 #INFRAESTRUCTURA VIRTUAL
 
 #PLATAFORMA UNIVERSITARIA DE COMPARTICIÓN DE CONOCIMIENTOS: PLUCO
 
-###Introducción
+##Introducción
 
 Plataforma académica de compartición de archivos de la Universidad de Granada, y que permita la colaboración en grupo entre los usuarios del sistema. Añade servicios de mensajería y foros,potenciando la interacción de los usuarios, y agrupando a los mismos por varios grupos de o bien asignaturas o cursos.
 
